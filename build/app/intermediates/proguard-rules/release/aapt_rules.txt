@@ -1,0 +1,9 @@
+# Referenced at /Users/savvy2/Mobile/flutter_gallery/build/app/intermediates/manifests/full/release/AndroidManifest.xml:33
+-keep class io.flutter.app.FlutterApplication { <init>(...); }
+
+# Referenced at /Users/savvy2/Mobile/flutter_gallery/build/app/intermediates/manifests/full/release/AndroidManifest.xml:50
+-keep class io.flutter.plugins.urllauncher.UrlLauncherPlugin$WebViewActivity { <init>(...); }
+
+# Referenced at /Users/savvy2/Mobile/flutter_gallery/build/app/intermediates/manifests/full/release/AndroidManifest.xml:37
+-keep class savvy.flutter.demo.gallery.MainActivity { <init>(...); }
+

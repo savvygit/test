@@ -1,0 +1,97 @@
+android.support.annotation.Keep
+android.support.annotation.RestrictTo$Scope: android.support.annotation.RestrictTo$Scope[] values()
+android.support.annotation.RestrictTo$Scope: android.support.annotation.RestrictTo$Scope valueOf(java.lang.String)
+com.google.android.exoplayer2.Format: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.drm.DrmInitData: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.drm.DrmInitData$SchemeData: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.Metadata: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.emsg.EventMessage: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.id3.ApicFrame: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.id3.BinaryFrame: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.id3.ChapterFrame: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.id3.ChapterTocFrame: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.id3.CommentFrame: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.id3.GeobFrame: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.id3.PrivFrame: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.id3.TextInformationFrame: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.id3.UrlLinkFrame: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.scte35.PrivateCommand: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.scte35.SpliceInsertCommand: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.scte35.SpliceNullCommand: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.scte35.SpliceScheduleCommand: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.metadata.scte35.TimeSignalCommand: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.source.TrackGroup: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.source.TrackGroupArray: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.trackselection.DefaultTrackSelector$Parameters: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.trackselection.DefaultTrackSelector$SelectionOverride: android.os.Parcelable$Creator CREATOR
+com.google.android.exoplayer2.video.ColorInfo: android.os.Parcelable$Creator CREATOR
+io.flutter.app.FlutterActivity: FlutterActivity()
+io.flutter.app.FlutterApplication
+io.flutter.app.FlutterApplication: FlutterApplication()
+io.flutter.plugins.urllauncher.UrlLauncherPlugin$WebViewActivity
+io.flutter.plugins.urllauncher.UrlLauncherPlugin$WebViewActivity: UrlLauncherPlugin$WebViewActivity()
+io.flutter.view.AccessibilityBridge$Action: io.flutter.view.AccessibilityBridge$Action[] values()
+io.flutter.view.AccessibilityBridge$Action: io.flutter.view.AccessibilityBridge$Action valueOf(java.lang.String)
+io.flutter.view.AccessibilityBridge$Flag: io.flutter.view.AccessibilityBridge$Flag[] values()
+io.flutter.view.AccessibilityBridge$Flag: io.flutter.view.AccessibilityBridge$Flag valueOf(java.lang.String)
+io.flutter.view.AccessibilityBridge$TextDirection: io.flutter.view.AccessibilityBridge$TextDirection[] values()
+io.flutter.view.AccessibilityBridge$TextDirection: io.flutter.view.AccessibilityBridge$TextDirection valueOf(java.lang.String)
+io.flutter.view.FlutterCallbackInformation
+io.flutter.view.FlutterCallbackInformation: io.flutter.view.FlutterCallbackInformation nativeLookupCallbackInformation(long)
+io.flutter.view.FlutterMain
+io.flutter.view.FlutterMain: void nativeInit(android.content.Context,java.lang.String[],java.lang.String,java.lang.String)
+io.flutter.view.FlutterMain: void nativeRecordStartTimestamp(long)
+io.flutter.view.FlutterNativeView
+io.flutter.view.FlutterNativeView: long nativeAttach(io.flutter.view.FlutterNativeView,boolean)
+io.flutter.view.FlutterNativeView: void nativeDestroy(long)
+io.flutter.view.FlutterNativeView: void nativeDetach(long)
+io.flutter.view.FlutterNativeView: void nativeRunBundleAndSnapshotFromLibrary(long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,android.content.res.AssetManager)
+io.flutter.view.FlutterNativeView: java.lang.String nativeGetObservatoryUri()
+io.flutter.view.FlutterNativeView: void nativeDispatchEmptyPlatformMessage(long,java.lang.String,int)
+io.flutter.view.FlutterNativeView: void nativeDispatchPlatformMessage(long,java.lang.String,java.nio.ByteBuffer,int,int)
+io.flutter.view.FlutterNativeView: void nativeInvokePlatformMessageEmptyResponseCallback(long,int)
+io.flutter.view.FlutterNativeView: void nativeInvokePlatformMessageResponseCallback(long,int,java.nio.ByteBuffer,int)
+io.flutter.view.FlutterView
+io.flutter.view.FlutterView: io.flutter.view.FlutterNativeView getFlutterNativeView()
+io.flutter.view.FlutterView: io.flutter.app.FlutterPluginRegistry getPluginRegistry()
+io.flutter.view.FlutterView: void setInitialRoute(java.lang.String)
+io.flutter.view.FlutterView: void setLocale(java.util.Locale)
+io.flutter.view.FlutterView: float getDevicePixelRatio()
+io.flutter.view.FlutterView: android.graphics.Bitmap getBitmap()
+io.flutter.view.FlutterView: void nativeSurfaceCreated(long,android.view.Surface,int)
+io.flutter.view.FlutterView: void nativeSurfaceChanged(long,int,int)
+io.flutter.view.FlutterView: void nativeSurfaceDestroyed(long)
+io.flutter.view.FlutterView: void nativeSetViewportMetrics(long,float,int,int,int,int,int,int,int,int,int,int)
+io.flutter.view.FlutterView: android.graphics.Bitmap nativeGetBitmap(long)
+io.flutter.view.FlutterView: void nativeDispatchPointerDataPacket(long,java.nio.ByteBuffer,int)
+io.flutter.view.FlutterView: void nativeDispatchSemanticsAction(long,int,int,java.nio.ByteBuffer,int)
+io.flutter.view.FlutterView: void nativeSetSemanticsEnabled(long,boolean)
+io.flutter.view.FlutterView: void nativeSetAccessibilityFeatures(long,int)
+io.flutter.view.FlutterView: boolean nativeGetIsSoftwareRenderingEnabled()
+io.flutter.view.FlutterView: void nativeRegisterTexture(long,long,android.graphics.SurfaceTexture)
+io.flutter.view.FlutterView: void nativeMarkTextureFrameAvailable(long,long)
+io.flutter.view.FlutterView: void nativeUnregisterTexture(long,long)
+io.flutter.view.FlutterView: android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider()
+io.flutter.view.FlutterView$AccessibilityFeature: io.flutter.view.FlutterView$AccessibilityFeature[] values()
+io.flutter.view.FlutterView$AccessibilityFeature: io.flutter.view.FlutterView$AccessibilityFeature valueOf(java.lang.String)
+io.flutter.view.VsyncWaiter
+io.flutter.view.VsyncWaiter: void nativeOnVsync(long,long,long)
+org.checkerframework.checker.formatter.qual.ConversionCategory: org.checkerframework.checker.formatter.qual.ConversionCategory[] values()
+org.checkerframework.checker.formatter.qual.ConversionCategory: org.checkerframework.checker.formatter.qual.ConversionCategory valueOf(java.lang.String)
+org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory: org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory[] values()
+org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory: org.checkerframework.checker.i18nformatter.qual.I18nConversionCategory valueOf(java.lang.String)
+org.checkerframework.checker.units.qual.Prefix: org.checkerframework.checker.units.qual.Prefix[] values()
+org.checkerframework.checker.units.qual.Prefix: org.checkerframework.checker.units.qual.Prefix valueOf(java.lang.String)
+org.checkerframework.dataflow.qual.Pure$Kind: org.checkerframework.dataflow.qual.Pure$Kind[] values()
+org.checkerframework.dataflow.qual.Pure$Kind: org.checkerframework.dataflow.qual.Pure$Kind valueOf(java.lang.String)
+org.checkerframework.framework.qual.LiteralKind: org.checkerframework.framework.qual.LiteralKind[] values()
+org.checkerframework.framework.qual.LiteralKind: org.checkerframework.framework.qual.LiteralKind valueOf(java.lang.String)
+org.checkerframework.framework.qual.TypeKind: org.checkerframework.framework.qual.TypeKind[] values()
+org.checkerframework.framework.qual.TypeKind: org.checkerframework.framework.qual.TypeKind valueOf(java.lang.String)
+org.checkerframework.framework.qual.TypeUseLocation: org.checkerframework.framework.qual.TypeUseLocation[] values()
+org.checkerframework.framework.qual.TypeUseLocation: org.checkerframework.framework.qual.TypeUseLocation valueOf(java.lang.String)
+savvy.flutter.demo.gallery.MainActivity
+savvy.flutter.demo.gallery.MainActivity: MainActivity()
+savvy.flutter.demo.gallery.R$mipmap: int ic_background
+savvy.flutter.demo.gallery.R$mipmap: int ic_foreground
+savvy.flutter.demo.gallery.R$mipmap: int ic_launcher

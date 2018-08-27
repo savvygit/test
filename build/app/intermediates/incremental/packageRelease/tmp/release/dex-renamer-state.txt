@@ -1,0 +1,4 @@
+#Mon Aug 27 18:15:15 EET 2018
+base.0=/Users/savvy2/Mobile/flutter_gallery/build/app/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
