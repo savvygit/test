@@ -22,7 +22,18 @@ platform :android do
       puts 'Current version already present on the Play Store. Omitting this upload.'
     end
   end
-  lane :tests do
+end
+lane :tests do
   gradle(task: "test")
-  end
+end
+lane :screenshots do
+  capture_android_screenshots
+  upload_to_play_store
+end
+lane :playstore do
+  # ...
+  upload_to_play_store(
+    track: 'rollout',
+    rollout: '0.5'
+  )
 end
